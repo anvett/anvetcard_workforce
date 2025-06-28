@@ -1,0 +1,48 @@
+{
+  "name": "site_multipage_1",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.6.0",
+    "@fortawesome/free-solid-svg-icons": "^6.6.0",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "@heroicons/react": "^1.0.6",
+    "@react-google-maps/api": "^2.19.3",
+    "@react-three/drei": "^9.107.0",
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@tailwindcss/forms": "^0.5.7",
+    "@tailwindcss/line-clamp": "^0.4.4",
+    "@tailwindcss/typography": "^0.5.13",
+    "@types/node": "^20.14.7",
+    "@types/react": "^18.3.3",
+    "autoprefixer": "^10.4.19",
+    "clsx": "^2.1.1",
+    "framer-motion": "^11.2.11",
+    "keen-slider": "^6.8.6",
+    "leaflet": "^1.9.4",
+    "next": "^15.2.4",
+    "next-sitemap": "^4.2.3",
+    "next-video": "^1.2.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-icons": "^5.2.1",
+    "react-intersection-observer": "^9.13.1",
+    "react-leaflet": "^4.2.1",
+    "react-player": "^2.16.0",
+    "tailwind-merge": "^2.3.0",
+    "typescript": "^5.5.2"
+  },
+  "devDependencies": {
+    "daisyui": "^4.12.2",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "14.2.3",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.3"
+  }
+}

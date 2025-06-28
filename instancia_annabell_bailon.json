@@ -1,0 +1,235 @@
+{
+  "profile": {
+    "name": "Annabell Bailón",
+    "title": "Jefa de Marca y Estrategia",
+    "description": "Impulsando soluciones integrales para tu empresa con Workforce.",
+    "image": "/assets/images/profile/profile.png",
+    "phone": "+593998347039",
+    "website": "https://workforce.com.ec/"
+  },
+  "contact": [
+    {
+      "type": "phone",
+      "icon": "/assets/icons/call.png",
+      "text": "Llamar móvil",
+      "action": "tel:+593998347039"
+    },
+    {
+      "type": "phone2",
+      "icon": "/assets/icons/call.png",
+      "text": "Llamar fijo",
+      "action": "tel:+59323617647"
+    },
+    {
+      "type": "email",
+      "icon": "/assets/icons/email.png",
+      "text": "Email",
+      "action": "mailto:proyectos@workforce.com.ec"
+    },
+    {
+      "type": "location",
+      "icon": "/assets/icons/location.png",
+      "text": "Dirección",
+      "address": "Catalina Aldaz entre Portugal y Eloy Alfaro. Edif Recoleta",
+      "hours": "Lunes a viernes, 8:00 - 18:00",
+      "googleMapsLink": "https://maps.app.goo.gl/nJ6LydRpJ41Yq48F7"
+    },
+    {
+      "type": "whatsapp",
+      "icon": "/assets/icons/whatsapp.png",
+      "text": "WhatsApp",
+      "action": "https://wa.me/593998347039?text=Hola,%20estoy%20interesado%20en%20los%20servicios%20de%20Workforce"
+    }
+  ],
+  "socialLinks": [
+    {
+      "type": "facebook",
+      "icon": "facebook.png",
+      "url": "https://www.facebook.com/workforceecuador",
+      "text": "Facebook"
+    },
+    {
+      "type": "instagram",
+      "icon": "instagram.png",
+      "url": "https://www.instagram.com/workforceecuador/",
+      "text": "Instagram"
+    },
+    {
+      "type": "tiktok",
+      "icon": "tiktok.png",
+      "url": "https://www.tiktok.com/@workforce.ecuador",
+      "text": "TikTok"
+    },
+    {
+      "type": "website",
+      "icon": "website.png",
+      "url": "https://workforce.com.ec/",
+      "text": "Sitio Web"
+    }
+  ],
+  "products": [
+    {
+      "title": "Limpieza",
+      "type": "image",
+      "image": "/assets/images/services/limpieza.jpg",
+      "description": [
+        "Limpieza general para oficinas y espacios corporativos",
+        "Limpieza profunda y término de obra para nuevas instalaciones",
+        "Limpieza de vidrios exteriores y fachadas",
+        "Sanitización y desinfección con productos certificados",
+        "Personal capacitado y equipos modernos",
+        "Compromiso con la calidad y puntualidad"
+      ],
+      "highlight": "Tu espacio limpio y seguro"
+    },
+    {
+      "title": "Mantenimiento",
+      "type": "image",
+      "image": "/assets/images/services/mantenimiento.jpg",
+      "description": [
+        "Servicios eléctricos y reparación de instalaciones",
+        "Plomería para edificios y locales comerciales",
+        "Pintura y remodelación de espacios",
+        "Adecuación y mantenimiento de piscinas",
+        "Soluciones rápidas y eficientes",
+        "Garantía en todos nuestros trabajos"
+      ],
+      "highlight": "Mantenimiento integral para tu empresa"
+    },
+    {
+      "title": "Jardinería",
+      "type": "image",
+      "image": "/assets/images/services/jardineria.jpg",
+      "description": [
+        "Mantenimiento profesional de áreas verdes",
+        "Diseño y creación de jardines personalizados",
+        "Desbroce y limpieza de maleza",
+        "Control efectivo de plagas y enfermedades",
+        "Uso de técnicas ecológicas y responsables",
+        "Asesoría para conservar tus espacios naturales"
+      ],
+      "highlight": "Belleza y salud para tus áreas verdes"
+    },
+    {
+      "title": "Alimentación",
+      "type": "image",
+      "image": "/assets/images/services/alimentacion.jpg",
+      "description": [
+        "Servicio hospitalario especializado",
+        "Alimentación corporativa saludable y balanceada",
+        "Alimentación industrial para empresas y fábricas",
+        "Catering profesional para eventos sociales y corporativos",
+        "Planes nutricionales personalizados",
+        "Calidad y seguridad alimentaria garantizadas"
+      ],
+      "highlight": "Nutrición que impulsa tu productividad"
+    }
+  ],
+  "education": [
+    {
+      "title": "Compromiso con la Calidad",
+      "date": "Ventaja competitiva",
+      "details": [
+        "Protocolos estrictos de limpieza y mantenimiento",
+        "Uso de productos y equipos certificados",
+        "Capacitación continua del personal",
+        "Supervisión constante en cada proyecto",
+        "Garantía de satisfacción para nuestros clientes",
+        "Adaptabilidad a las necesidades específicas"
+      ]
+    },
+    {
+      "title": "Experiencia y Profesionalismo",
+      "date": "Más de 10 años en el mercado",
+      "details": [
+        "Equipos multidisciplinarios capacitados",
+        "Gestión eficiente de proyectos complejos",
+        "Cumplimiento de normativas nacionales e internacionales",
+        "Trabajo con empresas de diversos sectores",
+        "Reputación sólida en el mercado ecuatoriano",
+        "Enfoque en la mejora continua"
+      ]
+    },
+    {
+      "title": "Servicios Integrales",
+      "date": "Soluciones completas",
+      "details": [
+        "Desde limpieza hasta alimentación y jardinería",
+        "Coordinación efectiva entre áreas de servicio",
+        "Flexibilidad en horarios y servicios",
+        "Atención personalizada y asesoría especializada",
+        "Optimización de recursos para mayor eficiencia",
+        "Resultados medibles y transparentes"
+      ]
+    },
+    {
+      "title": "Innovación y Tecnología",
+      "date": "Herramientas modernas",
+      "details": [
+        "Implementación de tecnologías limpias y seguras",
+        "Software de gestión para monitoreo de servicios",
+        "Equipos ecológicos y eficientes",
+        "Reportes digitales y comunicación constante",
+        "Capacitación en nuevas técnicas y tendencias",
+        "Compromiso con el medio ambiente"
+      ]
+    },
+    {
+      "title": "Satisfacción Garantizada",
+      "date": "Clientes felices y leales",
+      "details": [
+        "Atención rápida y eficaz a solicitudes",
+        "Resolución efectiva de problemas",
+        "Relaciones de confianza a largo plazo",
+        "Flexibilidad y adaptación a cambios",
+        "Evaluaciones periódicas de calidad",
+        "Testimonios positivos y recomendaciones"
+      ]
+    }
+  ],
+  "slides": [
+    {
+      "image": "/assets/images/slides/limpieza1.jpg",
+      "title": "Limpieza Profesional"
+    },
+    {
+      "image": "/assets/images/slides/mantenimiento1.jpg",
+      "title": "Mantenimiento Técnico"
+    },
+    {
+      "image": "/assets/images/slides/jardineria1.jpg",
+      "title": "Jardinería y Áreas Verdes"
+    },
+    {
+      "image": "/assets/images/slides/alimentacion1.jpg",
+      "title": "Servicios de Alimentación"
+    },
+    {
+      "image": "/assets/images/slides/workforce_equipo.jpg",
+      "title": "Equipo Workforce"
+    }
+  ],
+  "testimonials": [
+    {
+      "image": "/assets/images/testimonials/test1.jpg",
+      "name": "Luis Pérez",
+      "title": "Gerente General",
+      "message": "Workforce ha mejorado significativamente la limpieza y el mantenimiento en nuestras instalaciones. Muy profesionales.",
+      "category": "Clientes"
+    },
+    {
+      "image": "/assets/images/testimonials/test2.jpg",
+      "name": "María López",
+      "title": "Directora de Recursos Humanos",
+      "message": "Excelente servicio y atención personalizada. Siempre cumplen con los horarios y estándares de calidad.",
+      "category": "Clientes"
+    },
+    {
+      "image": "/assets/images/testimonials/test3.jpg",
+      "name": "Carlos García",
+      "title": "Administrador de Edificios",
+      "message": "Confío en Workforce para el mantenimiento integral. Son confiables y tienen un equipo altamente capacitado.",
+      "category": "Clientes"
+    }
+  ]
+}

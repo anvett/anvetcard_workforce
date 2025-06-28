@@ -1,0 +1,269 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+/* body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+  @apply bg-light;
+} */
+
+body {
+  @apply font-sans min-h-screen flex flex-col;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@font-face {
+  font-family: "Ballpoint";
+  src: url("/fonts/ballpoint.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+/* --------------------------------------------- */
+/* background */
+/* --------------------------------------------- */
+
+.bg-image-background {
+  background-image: url("/assets/images/background1.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bg-image-with-overlay {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("/assets/images/background1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bg-image-with-overlay2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("/assets/images/background1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* --------------------------------------------- */
+/* Section */
+/* --------------------------------------------- */
+
+.section-title {
+  @apply font-primary  font-extrabold   text-center  text-size-6 pb-spacing-3 sm:text-size-8;
+}
+
+.section-subtitle {
+  @apply font-primary  font-extrabold  text-center  text-size-4 sm:text-size-6;
+}
+
+.section-h3 {
+  @apply text-accent text-size-4 font-secondary font-semibold pb-spacing-1  sm:text-size-5;
+}
+
+.section-h4 {
+  @apply text-primary text-size-4 font-secondary font-semibold pb-spacing-1  sm:text-size-5;
+}
+
+.main-button {
+  @apply bg-primary text-light font-bold px-6 py-3 rounded-full   hover:bg-accent hover:text-primary transition ease-in duration-300 transform hover:scale-110;
+}
+
+.contact-button {
+  @apply bg-primary text-light   px-4 py-3 rounded-full sm:px-6 hover:bg-accent hover:text-primary transition ease-in duration-300 transform hover:scale-110 ; 
+  @apply w-36 md:w-44 ;
+}
+
+.contact-button-personalized {
+  @apply   px-4 py-3 rounded-full sm:px-6 transition ease-in duration-300 transform hover:scale-110 ; 
+  @apply w-36 md:w-44 ;
+}
+
+.slide-button {
+  @apply bg-primary text-light   px-spacing-1 py-1 rounded-full sm:px-spacing-3 hover:bg-accent hover:text-primary transition ease-in duration-300 transform hover:scale-110 ; 
+  @apply w-spacing-12 md:w-spacing-16 sm:w-spacing-10 ;
+}
+
+.main-link {
+  @apply text-primary text-size-2 font-secondary font-normal pb-spacing-1  sm:text-size-3;
+}
+
+.gallery-title {
+  @apply  text-size-1 font-secondary text-center font-normal py-spacing-1  sm:text-size-2;
+} 
+
+.modal-highlight{
+  @apply text-red-500 text-size-2 font-secondary font-bold pb-spacing-1 pt-spacing-3  sm:text-size-4;
+}
+
+/* --------------------------------------------- */
+/* Gradient */
+/* --------------------------------------------- */
+
+.bg-gradient-primary {
+  @apply bg-gradient-to-t from-light to-secondary;
+}
+
+.bg-gradient-secondary {
+  @apply bg-gradient-to-tr from-dark to-primary;
+}
+
+.bg-gradient-modal {
+  @apply bg-gradient-to-br from-secondary to-accent;
+}
+
+.bg-gradient-accent {
+  @apply bg-gradient-to-br from-dark to-secondary;
+}
+
+.bg-gradient-dark {
+  @apply bg-gradient-to-tr from-secondary to-dark-light;
+}
+
+.bg-gradient-light {
+  @apply bg-gradient-to-tl from-primary-light to-primary;
+}
+
+.bg-gradient-reverse {
+  @apply bg-gradient-to-t from-secondary to-primary;
+}
+
+.bg-gradient-contrast {
+  @apply bg-gradient-to-br from-secondary to-accent;
+}
+
+.bg-gradient-vivid {
+  @apply bg-gradient-to-b from-primary to-primary-light;
+}
+
+.bg-gradient-subtle {
+  @apply bg-gradient-to-br from-primary to-dark;
+}
+
+.bg-gradient-deep {
+  @apply bg-gradient-to-l from-dark to-secondary;
+}
+
+/* === Sombras de texto personalizadas === */
+
+.text-shadow {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.text-shadow-sm {
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+.text-shadow-lg {
+  text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+/* --------------------------------------------- */
+/* NavBar */
+/* --------------------------------------------- */
+
+.nav-link {
+  @apply hover:text-accent active:text-secondary;
+}
+
+
+/* --------------------------------------------- */
+/* Accordion Experience and Education */
+/* --------------------------------------------- */
+
+.accordion-title {
+  @apply text-size-1 sm:text-size-2; /* Fondo del encabezado */
+}
+
+.accordion-detail {
+  @apply text-size-1 py-spacing-1 sm:text-size-2; /* Detalle del acordeón */
+}
+
+
+/* --------------------------------------------- */
+/* Card */
+/* --------------------------------------------- */
+
+.btn-copy {
+  @apply bg-primary text-light font-bold px-4 py-2 rounded-lg hover:bg-accent hover:text-primary transition ease-in duration-300 transform hover:scale-110;
+}
+
+.modal-content {
+  @apply text-secondary text-size-2 font-secondary py-spacing-1;
+}
+
+.modal-title {
+  @apply text-primary text-size-5 font-bold text-center py-3;
+}
+
+.item-title {
+  @apply text-primary text-size-5 font-bold text-center py-3;
+}
+
+.modal-body {
+  @apply text-primary text-size-3 font-secondary py-2;
+}
+
+.modal-close-btn {
+  @apply bg-secondary hover:bg-dark text-dark font-bold rounded-full p-3 transition duration-300 ease-in-out transform hover:scale-105;
+}
+
+/* --------------------------------------------- */
+/* Botones */
+/* --------------------------------------------- */
+
+/* Botón sólido con fondo */
+.btn-solid {
+  @apply px-4 py-3 sm:px-6 flex gap-2 justify-center align-middle text-center rounded-md transition duration-300 transform hover:scale-105;
+}
+
+/* Botón con borde */
+.btn-outline {
+  @apply border px-4 py-3 flex gap-2 justify-center align-middle text-center sm:px-6 rounded-md transition duration-300 transform hover:scale-105;
+}
+
+/* Botón redondeado */
+.btn-rounded {
+  @apply px-4 py-3 flex gap-2 justify-center align-middle text-center sm:px-6 rounded-full transition duration-300 transform hover:scale-105;
+}
+
+/* Botón plano sin fondo */
+.btn-flat {
+  @apply bg-transparent flex gap-2 justify-center align-middle text-center px-4 py-3 sm:px-6 transition duration-300 transform hover:scale-105;
+}
+
+/* Botón con sombra */
+.btn-shadow {
+  @apply px-4 py-3 sm:px-6 flex gap-2 justify-center align-middle text-center rounded-md shadow-lg transition duration-300 transform hover:scale-105;
+}
+
+.btn-circle-custom {
+  @apply flex items-center justify-center rounded-full w-12 h-12 p-0 m-0;
+}
