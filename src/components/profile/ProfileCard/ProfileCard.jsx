@@ -114,7 +114,7 @@ const ProfileCard = ({
                 alt="Foto de perfil"
                 width={width}
                 height={height}
-                className={`object-fill w-[260px] h-[350px] sm:w-[360px] sm:h-[500px] ${imageRounded}`}
+                className={`object-fill w-[260px] h-[260px] sm:w-[360px] sm:h-[360px] ${imageRounded}`}
               />
             )}
           </motion.div>

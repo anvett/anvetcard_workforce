@@ -39,8 +39,8 @@ export default function WorkforcePage() {
           imageOptions={{
             width: 300,
             height: 300,
-            size: "w-[260px] h-[350px] sm:w-[360px] sm:h-[500px]",
-            rounded: "rounded-xl",
+            size: "w-[260px] h-[260px] sm:w-[360px] sm:h-[360px]",
+            rounded: "rounded-full",
             shadow: "shadow-md shadow-accent",
           }}
           animationOptions={{
@@ -54,7 +54,7 @@ export default function WorkforcePage() {
             saveLabel: "Guardar Contacto",
             whatsappLabel1: "Asesor 1",
             whatsappLabel2: "Asesor 2",
-            vcfLink: "/assets/vcards/workforce.vcf",
+            vcfLink: "/assets/vcards/annabell_bailon.vcf",
             whatsappMessage1:
               "Hola, estoy interesado en los servicios de Workforce",
             whatsappMessage2:
@@ -104,7 +104,7 @@ export default function WorkforcePage() {
           entries={educationEntries}
           componentTitle="¿Por qué elegir Workforce?"
           titleOptions={{
-            text: "Ventajas y Beneficios",
+            text: "VENTAJAS COMPETITIVAS - WORKFORCE ",
             color: "text-light",
             size: "text-size-5 sm:text-size-7",
           }}
@@ -125,7 +125,7 @@ export default function WorkforcePage() {
       </section>
 
       {/* Servicios */}
-      <section id="services" className="bg-gradient-subtle ">
+      {/* <section id="services" className="bg-gradient-subtle ">
         <GalleryWithModal
           items={servicesItems}
           whatsappNumber="593998347039"
@@ -159,6 +159,30 @@ export default function WorkforcePage() {
             bgColor: "bg-primary shadow-lg shadow-dark",
             textColor: "text-light",
             hoverColor: "hover:bg-light hover:text-dark",
+          }}
+        />
+      </section> */}
+
+      {/* Video principal */}
+      <section className="bg-light">
+        <VideoPlayer
+          videoUrl="/assets/videos/video1.mp4"
+          titleOptions={{
+            text: "¡Descubre lo mejor del sector de limpieza en un solo lugar!",
+            color: "text-primary",
+            size: "text-size-5 sm:text-size-7",
+            weight: "font-bold",
+            alignment: "text-center",
+            marginBottom: "mb-spacing-3",
+          }}
+          containerOptions={{
+            bgColor: "bg-transparent",
+            padding: "p-10",
+            borderColor: "border border-accent",
+            borderRadius: "rounded-sm",
+            shadow: "shadow-md shadow-secondary",
+            maxWidth: "max-w-7xl",
+            ratio: "16/9",
           }}
         />
       </section>
@@ -203,7 +227,7 @@ export default function WorkforcePage() {
         <Testimonials
           testimonials={testimonialsData}
           titleOptions={{
-            text: "Lo que dicen nuestros clientes",
+            text: "SOMOS UN GRAN LUGAR PARA TRABAJAR",
             color: "text-primary",
             size: "text-size-5 sm:text-size-7",
             alignment: "text-center",
@@ -231,7 +255,7 @@ export default function WorkforcePage() {
       </section>
 
       {/* QR para contacto */}
-      <section className="bg-gradient-contrast">
+      {/* <section className="bg-gradient-contrast">
         <QRDisplay
           titleOptions={{
             text: "Escanea y contáctanos",
@@ -250,10 +274,10 @@ export default function WorkforcePage() {
             gap: "gap-6",
           }}
         />
-      </section>
+      </section> */}
 
       {/* Contacto y llamada a la acción */}
-      <section id="contacto" className="bg-gradient-primary ">
+      {/* <section id="contacto" className="bg-gradient-primary ">
         <CallToAction
           titleOptions={{
             text: "Contacta con Workforce hoy mismo",
@@ -279,7 +303,7 @@ export default function WorkforcePage() {
             backgroundImage: "/assets/images/cta-back.jpg",
           }}
         />
-      </section>
+      </section> */}
     </main>
   );
 }

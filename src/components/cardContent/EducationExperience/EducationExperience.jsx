@@ -114,7 +114,7 @@ const EducationExperience = ({
             id={`label-${index}`}
             className={`collapse-title font-medium block cursor-pointer whitespace-normal break-words ${titleSize} ${titleTextColor}`}
           >
-            {entry.title} - <strong>{entry.date}</strong>
+            {entry.title}  <strong>{entry.date}</strong>
           </label>
       
           {/* 📦 Contenido con roles y referencias */}

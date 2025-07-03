@@ -132,7 +132,7 @@ body {
 }
 
 .bg-gradient-secondary {
-  @apply bg-gradient-to-tr from-dark to-primary;
+  @apply bg-gradient-to-br from-primary to-primary-light;
 }
 
 .bg-gradient-modal {

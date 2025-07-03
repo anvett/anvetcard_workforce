@@ -17,5 +17,11 @@ export const socialLinks = [
     "url": "https://www.tiktok.com/@workforce.ecuador",
     "text": "TikTok"
   },
-  
+  {
+    "type": "linkedin",
+    "icon": "linkedin.png",
+    "url": "https://www.linkedin.com/company/workforceecuador/?viewAsMember=true",
+    "text": "LinkedIn"
+  }
+
 ];

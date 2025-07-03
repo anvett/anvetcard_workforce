@@ -1,62 +1,46 @@
 export const educationEntries = [
   {
-    "title": "Compromiso con la Calidad",
-    "date": "Ventaja competitiva",
+    "title": "Trayectoria",
+    "date": "",
     "details": [
-      "Protocolos estrictos de limpieza y mantenimiento",
-      "Uso de productos y equipos certificados",
-      "Capacitación continua del personal",
-      "Supervisión constante en cada proyecto",
-      "Garantía de satisfacción para nuestros clientes",
-      "Adaptabilidad a las necesidades específicas"
+      "+20 Años de Experiencia",
+      "Personal Calificado y Certificado",
+      "Seguridad de la información ",
+      "Garantía de servicio",
     ]
   },
   {
-    "title": "Experiencia y Profesionalismo",
-    "date": "Más de 10 años en el mercado",
+    "title": "Calidad",
+    "date": "",
     "details": [
-      "Equipos multidisciplinarios capacitados",
-      "Gestión eficiente de proyectos complejos",
-      "Cumplimiento de normativas nacionales e internacionales",
-      "Trabajo con empresas de diversos sectores",
-      "Reputación sólida en el mercado ecuatoriano",
-      "Enfoque en la mejora continua"
+      "Sistema Integrado de Gestión",
+      "Plan de Contingencia y Continuidad del Negocio",
+      "Monitoreo Remoto",
     ]
   },
   {
-    "title": "Servicios Integrales",
-    "date": "Soluciones completas",
+    "title": "Innovación",
+    "date": "",
     "details": [
-      "Desde limpieza hasta alimentación y jardinería",
-      "Coordinación efectiva entre áreas de servicio",
-      "Flexibilidad en horarios y servicios",
-      "Atención personalizada y asesoría especializada",
-      "Optimización de recursos para mayor eficiencia",
-      "Resultados medibles y transparentes"
+      "Innovación y Sistematización",
+      "Equipos Especializados",
     ]
   },
   {
-    "title": "Innovación y Tecnología",
-    "date": "Herramientas modernas",
+    "title": "Atención Personalizada",
+    "date": "",
     "details": [
-      "Implementación de tecnologías limpias y seguras",
-      "Software de gestión para monitoreo de servicios",
-      "Equipos ecológicos y eficientes",
-      "Reportes digitales y comunicación constante",
-      "Capacitación en nuevas técnicas y tendencias",
-      "Compromiso con el medio ambiente"
+      "Supervisión Eficiente",
+      "Asesoría y Servicio Personalizado",
+      "Respuesta Inmediata",
     ]
   },
   {
-    "title": "Satisfacción Garantizada",
-    "date": "Clientes felices y leales",
+    "title": "Sostenibilidad",
+    "date": "",
     "details": [
-      "Atención rápida y eficaz a solicitudes",
-      "Resolución efectiva de problemas",
-      "Relaciones de confianza a largo plazo",
-      "Flexibilidad y adaptación a cambios",
-      "Evaluaciones periódicas de calidad",
-      "Testimonios positivos y recomendaciones"
+      "Responsabilidad Social y Ambiental",
+      "Productos Amigables con el Medio Ambiente",
     ]
   }
 ];

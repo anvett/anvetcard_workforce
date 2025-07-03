@@ -55,7 +55,6 @@ const poppins = Poppins({
 export default function RootLayout({ children }) {
   const menuConfig = [
     { label: "Inicio", href: "#inicio" },
-    { label: "Servicios", href: "#services" },
     { label: "Equipo", href: "#equipo" },
     { label: "Contacto", href: "#contacto" },
   ];
@@ -72,7 +71,7 @@ export default function RootLayout({ children }) {
           // 🎨 Estilos generales
           bgColor="bg-light"
           textColor="text-primary"
-          borderColor="border-secondary"
+          borderColor="border-none"
           // 🖼️ Logo
           logoSrc="/assets/images/logo.png"
           // 📋 Menú
@@ -101,7 +100,7 @@ export default function RootLayout({ children }) {
         <main>{children}</main>
         <Footer
           // 🎨 Estilos visuales actuales
-          bgColor="bg-gradient-to-t from-dark-light to-primary-light"
+          bgColor="bg-gradient-secondary"
           bgSecondColor="bg-dark"
           textColor="text-light"
           borderColor="border-secondary"

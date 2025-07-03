@@ -58,7 +58,7 @@ const Navbar = ({
         </div>
 
         {/* Logo */}
-        <Image className="justify-center shadow-lg shadow-secondary" src={logoSrc} width={130} height={130} alt="Logo" suppressHydrationWarning />
+        <Image className="justify-center " src={logoSrc} width={130} height={130} alt="Logo" suppressHydrationWarning />
       </div>
 
       {/* Menú desktop */}
