@@ -100,15 +100,15 @@ export default function RootLayout({ children }) {
         <main>{children}</main>
         <Footer
           // 🎨 Estilos visuales actuales
-          bgColor="bg-gradient-secondary"
+          bgColor="bg-light"
           bgSecondColor="bg-dark"
-          textColor="text-light"
+          textColor="text-primary"
           borderColor="border-secondary"
           // 🔗 Enlaces del menú
           footerLinks={footerLinks}
           linkTextSize="text-size-1"
           // 🖼️ Logo
-          footerLogo="/assets/images/logo.png"
+          footerLogo="/assets/images/logo_footer.jpg"
           // 🔢 Contador de visitas (CountAPI)
           counterOptions={{
             namespace: "anvetcard",
